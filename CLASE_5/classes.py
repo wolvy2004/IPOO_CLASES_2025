@@ -18,9 +18,7 @@ class Persona(ABC):
       self.__name = nombre
       self.__age = age
     
-    @abstractmethod
-    def calcularPeso(self)->float:
-      pass
+    
 
 #CLASE CONCRETA      
 class Jugador(Persona,Representacion):
